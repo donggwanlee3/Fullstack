@@ -15,7 +15,9 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser updates the view with the new note
+```
 
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -43,8 +45,9 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser dynamically renders the notes
+```
 
-
+```mermaid
 sequenceDiagram
     participant browser
     participant server
